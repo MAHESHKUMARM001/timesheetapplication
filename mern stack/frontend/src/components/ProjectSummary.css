@@ -1,0 +1,124 @@
+/* Dashboard Container */
+.fullproject{
+    padding: 0px 50px 20px 50px;
+}
+.dashboard-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header */
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .dashboard-tabs {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .tab-item {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 10px;
+    color: #555;
+  }
+  
+  .tab-item.active {
+    font-weight: bold;
+    color: #0056d2; /* Blue underline color */
+    border-bottom: 2px solid #0056d2;
+  }
+  
+  /* Welcome Section */
+  .welcome-section {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .welcome-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .welcome-section p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Task Cards */
+  .task-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .task-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 85px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .task-card p {
+    margin: 5px 0;
+  }
+  
+  /* Task Card Colors */
+  .task-card.done {
+    background-color: #28a745; /* Green */
+  }
+  
+  .task-card.create {
+    background-color: #007bff; /* Blue */
+  }
+  
+  .task-card.edit {
+    background-color: #ea971b; /* Red */
+  }
+  
+  .task-card.pending {
+    background-color: #6c757d; /* Gray */
+  }
+
+  .chart-section {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chart-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 650px; /* Chart container width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .chart-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .statuscart{
+    padding-right: 20px;
+  }

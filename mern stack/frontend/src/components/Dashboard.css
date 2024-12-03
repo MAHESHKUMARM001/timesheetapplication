@@ -1,0 +1,15 @@
+.fullcss{
+    padding: 25px 50px;
+}
+
+.task-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-table1{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 45px;
+    background-color: white;
+}

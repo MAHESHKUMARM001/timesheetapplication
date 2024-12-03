@@ -1,0 +1,107 @@
+.tabs-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding-left:70px
+  }
+  
+  .tab-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 5px;
+    /* font-size: 1rem; */
+    color: black;
+    background-color: white;
+  }
+  
+  .tab-button:hover {
+    border-bottom: 3px solid #0087ff;
+    color: #0087ff;
+    background-color: white;
+  }
+  
+  .tab-button.active {
+    border-bottom: 3px solid #0087ff;
+    color: #0087ff;
+    font-weight: bold;
+  }
+  
+  .tab-content {
+    padding: 1rem;
+    background-color: #ffffff;
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+  }
+  
+  .projects-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .projects-table th,
+  .projects-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+  }
+  
+  .projects-table th {
+    background-color: #f9f9f9;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+    font-size: 13px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 500px;
+  }
+  .form-group select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 514px;
+  }
+  
+  .submit-button {
+    /* padding: 0.7rem 1.5rem; */
+    background-color: #0087ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    font-size: 14px;
+  }
+  
+  .employee{
+    font-size: 14px;
+    padding-left: 40px;
+  }
+
+  .projectdetail{
+    padding-left: 35px;
+  }
+
+  .project-table{
+    width: 90%;
+    border-collapse: collapse;
+    margin-bottom: 45px;
+    background-color: white;
+  }

@@ -1,0 +1,160 @@
+.project-list-container {
+    width: 90%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 53px;
+  }
+  
+  .header1 h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .create-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .create-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .filters-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .filters-container input,
+  .filters-container select {
+    padding: 7px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+  }
+  
+  .project-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 45px;
+    background-color: white;
+  }
+  
+  .project-table th{
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    color: #333333;
+  }
+  .project-table td {
+    text-align: left;
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+  }
+  
+  .project-table th {
+    /* background-color: #f4f4f4; */
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .project-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .project-table .no-data {
+    text-align: center;
+    color: #999;
+  }
+  
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .pagination-container a {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    /* color: #007bff; */
+  }
+  
+  /* .pagination-container a:hover {
+    background-color: #f4f4f4;
+  } */
+  
+  .pagination-container .active-page {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+  }
+  
+  .pagination-container .disabled-page {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  
+
+  .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ff0000;
+  }
+  
+  .delete-button:hover {
+    color: #cc0000;
+  }
+  .search-input {
+    padding: 7px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .page-item {
+    margin: 0 5px;
+  }
+  
+  .page-link {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .active .page-link {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  

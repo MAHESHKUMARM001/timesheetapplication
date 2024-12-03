@@ -1,0 +1,75 @@
+/* Navbar Container */
+.navbar-container {
+    padding: 10px 50px 0px 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .tabler-logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000; /* Black text */
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc; /* Placeholder for the avatar */
+    margin-right: 10px;
+  }
+  
+  .email {
+    margin: 0;
+    font-size: 14px;
+    color: #555; /* Dark gray text */
+  }
+  
+  .role {
+    margin: 0;
+    font-size: 12px;
+    color: #888; /* Lighter gray text */
+  }
+  
+  /* Horizontal Line */
+  .horizontal-line {
+    border: none;
+    border-top: 1px solid #e0e0e0; /* Light gray line */
+    margin: 15px 0;
+  }
+  
+  /* Menu Section */
+  .menu-section {
+    display: flex;
+    gap: 60px;
+  }
+  
+  .menu-item {
+    text-decoration: none; /* Remove underline */
+    color: #555; /* Dark gray text */
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+  
+  .menu-item:hover {
+    color: #000; /* Black text on hover */
+  }
+  
+  .menu-icon {
+    margin-right: 5px;
+    font-size: 16px; /* Slightly larger icon */
+  }
+  
